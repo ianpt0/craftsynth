@@ -1,0 +1,135 @@
+h1 {
+  text-align: center;
+  padding-top: 50px;
+}
+/* FLEXBOX */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex: 1;
+  gap: 20px;
+  padding: 40px;
+  padding-top: 30px;
+}
+.sobre {
+  padding: 10px 30px 10px 30px;
+  border-radius: 5px;
+  background: white;
+  text-decoration: none;
+  color: black;
+}
+.produtos {
+  padding: 10px 30px 10px 30px;
+  border-radius: 5px;
+  background: white;
+  text-decoration: none;
+  color: black;
+}
+.lojas {
+  padding: 10px 30px 10px 30px;
+  border-radius: 5px;
+  background: white;
+  text-decoration: none;
+  color: black;
+}
+.contato {
+  padding: 10px 30px 10px 30px;
+  border-radius: 5px;
+  background: white;
+  text-decoration: none;
+  color: black;
+}
+
+/* CSS GRID*/
+
+.container {
+  display: grid;
+
+  grid-auto-flow: column;
+  grid-auto-flow: row;
+  grid-auto-rows: 100px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 55vh 68vh;
+  grid-template-areas:
+    "texto1 foto"
+    "texto2 texto3";
+  padding-top: 30px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.texto1 {
+  grid-area: texto1;
+  text-align: END;
+  background: white;
+  padding-right: 40px;
+  padding-top: 60px;
+}
+
+.button {
+  background: #ee2211;
+  padding: 9px;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.foto {
+  grid-area: foto;
+  background: #ee2211;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+  height: 400px;
+}
+
+.texto2 {
+  grid-area: texto2;
+  font-size: 50px;
+  text-align: end;
+  padding-top: 80px;
+  padding-right: 40px;
+  color: #c6c6c6;
+}
+
+.texto3 {
+  text-align: start;
+  grid-area: texto3;
+  background: #fff;
+  font-size: 17px;
+  padding-top: 18px;
+  padding-left: 80px;
+}
+
+.item-1 {
+  position: relative;
+  bottom: 165px;
+  left: -45px;
+  max-width: 30px;
+  max-height: 00px;
+}
+
+.item-2 {
+  position: relative;
+  bottom: 165px;
+  left: -45px;
+  max-width: 30px;
+  max-height: 00px;
+}
+
+.item-3 {
+  position: relative;
+  bottom: 165px;
+  left: -45px;
+  max-width: 30px;
+  max-height: 00px;
+}
+
+body {
+  background: #f1f1f1;
+  font-family: ARIAL;
+  font-size: 20px;
+}
