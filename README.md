@@ -1,2 +1,2 @@
 # craftsynth
-CSS grid and Flexbox studies
+CSS grid and Flexbox studies.
